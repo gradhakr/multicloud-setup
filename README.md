@@ -6,8 +6,13 @@ Tested with AWS, GCP & Azure and is what I regularly use to set up cloud environ
 
 # TODO
 [ ] 1. Install conda
+
 [ ] 2. Create conda templates
+
 [ ] 3. Create Makefile
-[ ] 4. Create requirements.tx
+
+[ ] 4. Create requirements.txt
+
 [ ] 5. example python file (with some output)
+
 [ ] 6. Implement initial tests
