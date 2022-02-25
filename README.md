@@ -16,3 +16,5 @@ Tested with AWS, GCP & Azure and is what I regularly use to set up cloud environ
 [-] 5. example python file (with some output)
 
 [-] 6. Implement initial tests
+
+[-] 7. Showcase it working on AWS/GCP/Azure
