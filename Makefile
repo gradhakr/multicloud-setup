@@ -2,23 +2,25 @@
 SHELL: /usr/bin/bash
 
 CONDA_COMMAND=source $$(conda info --base)/etc/profile.d/conda.sh ; conda activate ;
+GREEN=`tput setaf 2`
+END_COLOR=`tput sgr0`
 
 tmpdir:
 	[ -d ~/tmp/ ] || mkdir ~/tmp/
 
 conda: tmpdir
-	@echo "Downloading conda"
+	@echo "${GREEN}Downloading conda${END_COLOR}"
 	wget -O ~/tmp/Miniconda3-latest-Linux-x86_64.sh https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
-	@echo "Setting conda install file to be executable"
+	@echo "${GREEN}Setting conda install file to be executable${END_COLOR}"
 	chmod +x ~/tmp/Miniconda3-latest-Linux-x86_64.sh
-	@echo "Installing conda now, please follow instructions on the screen"
+	@echo "${GREEN}Installing conda now, please follow instructions on the screen${END_COLOR}"
 	bash ~/tmp/Miniconda3-latest-Linux-x86_64.sh -u
-	@echo "Conda install now complete. Please open a new terminal or 'source ~/.bashrc' to reload your shell and get conda working."
+	@echo "${GREEN}Conda install now complete. Please open a new terminal or 'source ~/.bashrc' to reload your shell and get conda working.${END_COLOR}"
 
 ds_env:
-	@echo "Creating ds_env enviroment:"
+	@echo "${GREEN}Creating ds_env enviroment:${END_COLOR}"
 	@$(CONDA_COMMAND) conda create -n ds_env pip
-	@echo "Installing packages:"
+	@echo "${GREEN}Installing packages:${END_COLOR}"
 	@$(CONDA_COMMAND) conda activate ds_env && pip3 install -r .env_requirements/ds_requirements.txt
-	@echo "ds_env environment created. Please activate the env using 'conda activate ds_env'"
+	@echo "${GREEN}ds_env environment created. Please activate the env using 'conda activate ds_env'${END_COLOR}"
 
