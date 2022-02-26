@@ -1,0 +1,12 @@
+name: ds_env
+channels:
+  - defaults
+dependencies:
+  - numpy
+  - pandas
+  - pip
+  - plotly
+  - pytest
+  - pytest-cov
+  - scikit-learn
+  - seaborn

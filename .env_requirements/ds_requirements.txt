@@ -1,9 +1,0 @@
-###### Requirements without Version Specifiers ######
-pandas
-numpy
-scikit-learn
-seaborn
-plotly
-matplotlib
-jupyterlab
-notebook
