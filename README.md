@@ -1,7 +1,7 @@
 # Multi-cloud setup
 Code to setup working environment for DS/ML/AI projects on the cloud. 
 
-Tested with AWS, GCP & Azure and is what I regularly use to set up cloud environments before I begin work on a project.
+Tested with AWS, GCP & Azure and is what I regularly use to set up cloud environments before I begin work on a project. Uses conda for environment management and pip/conda for package management.
 
 # Usage
 
@@ -67,3 +67,5 @@ make vision_env
 - [ ] 6. Implement initial tests
 
 - [ ] 7. Showcase it working on AWS/GCP/Azure
+
+- [ ] 8. Add instructions for seamless github access from command line
