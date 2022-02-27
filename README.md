@@ -33,16 +33,3 @@ You can run a quick test to test your python install using:
 ```
 make test
 ```
-
-# TODO
-- [X] 1. Install conda
-
-- [X] 2. Create conda templates
-
-- [X] 3. Create Makefile
-
-- [X] 4. example python file (with some output)
-
-- [X] 5. Implement tests
-
-- [X] 6. Showcase it working on AWS/GCP/Azure
