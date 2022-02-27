@@ -21,7 +21,7 @@ To install the latest Linux version of miniconda from the Anaconda website, do:
 make conda
 ```
 ### Default DS environment
-To setup a working conda environment with popular DS libraries (pandas, numpy, sklearn, seaborn, plotly, pytest, ..), do:
+To setup a working conda environment with popular DS libraries (pandas, numpy, sklearn, seaborn, plotly, pytest, do:
 
 ```
 conda env create -f .env_requirements/ds_env.yml
