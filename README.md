@@ -14,8 +14,8 @@ git clone https://github.com/gradhakr/multicloud_setup.git
 
 ## Specific parts
 
-### Conda
-To install the latest version of conda, do:
+### Miniconda
+To install the latest Linux version of miniconda from the Anaconda website, do:
 
 ```
 make conda
