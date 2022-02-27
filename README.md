@@ -1,4 +1,5 @@
 [![Makefile CI](https://github.com/gradhakr/multicloud_setup/actions/workflows/makefile.yml/badge.svg)](https://github.com/gradhakr/multicloud_setup/actions/workflows/makefile.yml)
+[![Python Package using Conda](https://github.com/gradhakr/multicloud_setup/actions/workflows/python-package-conda.yml/badge.svg)](https://github.com/gradhakr/multicloud_setup/actions/workflows/python-package-conda.yml)
 # Multi-cloud setup
 
 Code to setup working environment for DS/ML/AI projects on the cloud. 
