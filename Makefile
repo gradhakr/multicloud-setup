@@ -15,4 +15,5 @@ conda: tmpdir
 	@echo "${GREEN}Conda install now complete. Please open a new terminal or 'source ~/.bashrc' to reload your shell and get conda working.${END_COLOR}"
 
 test:
+	pip install pytest
 	pytest hello.py
