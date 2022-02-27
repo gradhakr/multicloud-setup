@@ -1,7 +1,5 @@
 # Multi-cloud setup
 
-**WORK IN PROGRESS**
-
 Code to setup working environment for DS/ML/AI projects on the cloud. 
 
 Tested with AWS, GCP & Azure and is what I regularly use to set up cloud environments before I begin work on a project. Uses conda for environment management and pip/conda for package management.
@@ -30,7 +28,7 @@ conda env create -f .env_requirements/ds_env.yml
 ```
 
 ### A minimal test
-TODO
+You can run a quick test to test your python install using:
 
 ```
 make test
@@ -43,8 +41,8 @@ make test
 
 - [X] 3. Create Makefile
 
-- [ ] 4. example python file (with some output)
+- [X] 4. example python file (with some output)
 
-- [ ] 5. Implement tests
+- [X] 5. Implement tests
 
-- [ ] 6. Showcase it working on AWS/GCP/Azure
+- [X] 6. Showcase it working on AWS/GCP/Azure
